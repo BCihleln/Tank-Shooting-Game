@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8370196498708595360
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 696326755772693757, guid: c8afb27570cc1ea42ba8b1f9ece1577d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 51602c8c53e2df946973f034dba74cd2, type: 2}
+    - target: {fileID: 3557412502435784828, guid: c8afb27570cc1ea42ba8b1f9ece1577d, type: 3}
+      propertyPath: m_Name
+      value: Drone_PlayerAim
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610601435526413376, guid: c8afb27570cc1ea42ba8b1f9ece1577d, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965847386981998595, guid: c8afb27570cc1ea42ba8b1f9ece1577d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2b8e5cac4379b6943b41fe7baf980696, type: 2}
+    - target: {fileID: 8786632783917938613, guid: c8afb27570cc1ea42ba8b1f9ece1577d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786632783917938613, guid: c8afb27570cc1ea42ba8b1f9ece1577d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786632783917938613, guid: c8afb27570cc1ea42ba8b1f9ece1577d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786632783917938613, guid: c8afb27570cc1ea42ba8b1f9ece1577d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786632783917938613, guid: c8afb27570cc1ea42ba8b1f9ece1577d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786632783917938613, guid: c8afb27570cc1ea42ba8b1f9ece1577d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786632783917938613, guid: c8afb27570cc1ea42ba8b1f9ece1577d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786632783917938613, guid: c8afb27570cc1ea42ba8b1f9ece1577d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786632783917938613, guid: c8afb27570cc1ea42ba8b1f9ece1577d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786632783917938613, guid: c8afb27570cc1ea42ba8b1f9ece1577d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4633235079848405364, guid: c8afb27570cc1ea42ba8b1f9ece1577d, type: 3}
+    - {fileID: 4299088290771639003, guid: c8afb27570cc1ea42ba8b1f9ece1577d, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3557412502435784828, guid: c8afb27570cc1ea42ba8b1f9ece1577d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3744802195233512985}
+  m_SourcePrefab: {fileID: 100100000, guid: c8afb27570cc1ea42ba8b1f9ece1577d, type: 3}
+--- !u!1 &5005362363802151644 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3557412502435784828, guid: c8afb27570cc1ea42ba8b1f9ece1577d, type: 3}
+  m_PrefabInstance: {fileID: 8370196498708595360}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3744802195233512985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5005362363802151644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae8869cf0770e54fa120db40990b48c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAiming: 0
+  targetPosition: {x: 0, y: 0, z: 0}
+  aimBody: {fileID: 0}
+  UsingCamera: {fileID: 0}
