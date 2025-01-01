@@ -45,6 +45,8 @@ public class LifeSystem : MonoBehaviour
 
     void Die()
     {
+        //TODO: Using Timeline to perform dying behaviour
+
         //Animation ?
 
         //Visual Effects?
